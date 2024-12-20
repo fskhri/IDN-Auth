@@ -1,0 +1,33 @@
+{
+  "name": "idn-auth",
+  "version": "1.0.0",
+  "description": "IDN Authentication API",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "nodemon src/api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fskhri/idn-auth.git"
+  },
+  "keywords": [
+    "authentication",
+    "api",
+    "idn"
+  ],
+  "author": "fskhri",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  }
+} 
